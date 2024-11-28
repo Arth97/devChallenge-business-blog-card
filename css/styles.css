@@ -20,6 +20,7 @@ a {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.5rem;
 	color: #111729;
+	font-weight: bolder;
 	margin-bottom: 20px;
 }
 
@@ -33,6 +34,7 @@ a {
 	font-family: 'Lato', sans-serif;
 	font-size: 1rem;
 	color: #111729;
+	font-weight: bolder;
 }
 
 body {
@@ -59,19 +61,30 @@ main {
 	background-color: #FFFFFF;
 }
 
+.image-container {
+	position: relative;
+}
+
 .image {
 	border-radius: 15px;
 }
 
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+}
+
 .card-content {
-	padding: 30px;
+	padding: 0 30px 30px;
 	display: flex;
 	flex-direction: column;
 }
 
 .separator {
 	border: 1px solid #d3d3d3;
-	margin: 10px 0;
+	margin: 25px 0;
 	padding: 0;
 	margin-left: -30px;
 	width: 117%;
@@ -84,6 +97,10 @@ main {
 }
 
 .emoji {
+	width: 40px;
+	height: 40px;
+	border: 3px solid #F2F5F9;
+	margin-right: 10px;
 	border-radius: 50px;
 }
 
